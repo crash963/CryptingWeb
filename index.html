@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Secret Messages</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="topH1">
+      <h1>Secret Message App</h1>
+    </div>
+    <div class="cryptTitles">
+      <h2 class="cryptTitle">Text to crypt</h3>
+        <h2 class="uncryptTitle">Text to Uncrypt</h3>
+    </div>
+    <div class="crypting">
+      <textarea cols="50" rows="15" class="textToCrypt"></textarea>
+
+      <div class="buttons">
+        <button class="cryptButton">Crypt ➡</button>
+        <button class="uncryptButton">⬅ Uncrypt</button>
+      </div>
+      <textarea cols="50" rows="15" class="textToUncrypt"></textarea>
+    </div>
+    <div class="settings">
+      <form>
+        <input type="checkbox" class="firstSettings" name="key1" value="0">
+        <label for="firstSettings">First Settings</label>
+        <input type="checkbox" class="secondSettings" name="key1" value="1">
+        <label for="secondSettings">Second Settings</label>
+        <input type="checkbox" class="thirdSettings" name="key1" value="2">
+        <label for="thirdSettings">Third Settings</label>
+      </form>
+    </div>
+    <div class="circuits">
+      <form>
+        <input type="number" class="firstCircuit circuit">
+        <label for="firstCircuit">Set First Circuit 0-66</label>
+      </form>
+      <form>
+        <input type="number" class="secondCircuit circuit">
+        <label for="secondCircuit">Set Second Circuit 0-66</label>
+      </form>
+      <form>
+        <input type="number" class="thirdCircuit circuit">
+        <label for="thirdCircuit">Set Third Circuit 0-66</label>
+      </form>
+    </div>
+  </body>
+</html>

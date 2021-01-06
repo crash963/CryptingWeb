@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: Lucida Console;
+  color: green;
+}
+.topH1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.crypting {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+textarea {
+  width: 30%;
+  background-color: black;
+  border-color: green;
+  color: green;
+  padding: 20px;
+  border-radius: 10px;
+  border-width: 6px;
+  font-size: 20px;
+}
+
+.textToCrypt {
+  margin-right: 60px;
+}
+
+.textToUncrypt {
+  margin-left: 60px;
+}
+
+.buttons {
+  padding-top: 100px;
+
+  margin-top: 1%;
+  margin-bottom: 8%;
+}
+
+button {
+  font-size: 18px;
+  background-color: black;
+  border-style: solid;
+  border-color: green;
+  border-width: 3px;
+  color: green;
+  padding: 10px;
+  border-radius: 30%;
+}
+
+.cryptButton {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 0.5%;
+  margin-bottom: 30px;
+}
+
+.cryptTitles {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.cryptTitle {
+  margin-right: 30%;
+}
+
+.settings {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.circuits {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.circuit {
+  font-size: 25px;
+  width: 50px;
+  margin-top: 20px;
+}
+
+.secondCircuit {
+  margin-left: 30px;
+}
+
+.thirdCircuit {
+  margin-left: 30px;
+}
+
+input {
+  background-color: white;
+  color: green;
+}
