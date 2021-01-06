@@ -14,11 +14,11 @@ let firstCircuitIndex = 0;
 let secondCircuitIndex = 0;
 let thirdCircuitIndex = 0;
 const alphabeth =
-  " bacdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZěščřžýáíéúů?.-,";
+  " bacdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZěščřžýáíéúů?.-,1234567890";
 const keys = [
-  " XZNBGJHpcQD6.8YVTKFUC4/2IASRx%z17nlwebgjhqd*yvOMPtk3?5fuomiLWEasr9,",
-  " i/2*yvLWEaIASRx%z1QTw5fuomgnZNFUC4ebX3PtklB7?pcGjhD6.8YVqdKOMJHsr9,",
-  " JHpTXjhqd*SVtk3?BvcLWEaU%YgsQIAGbZNRxyOMPD68KC4/eomir.92F5fuz17nlw,",
+  " XZNýBGJHpžcQD6.8YVTěK=FUC4/2IAšSRxří%z17čnlwebgjhqd*yvOMPtk3?5áfuomiéLWEasr9,",
+  " i/ý2*yvLWšEaIASRx%zř1=QTwé5fuočmgnZNFUC4ebáX3žPtklB7?pcGjhD6.8YíVqděKOMJHsr9,",
+  " JHpTěXájhqd*čSVtk3?Bvšc=LWEaU%YgsQýIAGbZéNRxyOMPD68íKC4/eožmir.92F5fuz17nřlw,",
 ];
 let currentKey = [];
 
