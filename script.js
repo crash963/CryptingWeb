@@ -1,5 +1,4 @@
 "use strict";
-//testing github
 const uncryptButton = document.querySelector(".uncryptButton");
 const cryptButton = document.querySelector(".cryptButton");
 const textToCrypt = document.querySelector(".textToCrypt");
@@ -141,4 +140,33 @@ uncryptButton.addEventListener("click", function (e) {
   }
   textToCrypt.value = uncryptedText;
 });
-// 50 6 6 secondSettings
+
+cryptButton.addEventListener("mouseover", function () {
+  cryptButton.classList.toggle("btnHovered");
+});
+
+cryptButton.addEventListener("mouseout", function () {
+  cryptButton.classList.toggle("btnHovered");
+});
+
+uncryptButton.addEventListener("mouseover", function () {
+  uncryptButton.classList.toggle("btnHovered");
+});
+
+uncryptButton.addEventListener("mouseout", function () {
+  uncryptButton.classList.toggle("btnHovered");
+});
+
+cryptButton.addEventListener("click", function () {
+  cryptButton.classList.toggle("btnClicked");
+  setTimeout(function () {
+    cryptButton.classList.toggle("btnClicked");
+  }, 100);
+});
+
+uncryptButton.addEventListener("click", function () {
+  uncryptButton.classList.toggle("btnClicked");
+  setTimeout(function () {
+    uncryptButton.classList.toggle("btnClicked");
+  }, 100);
+});

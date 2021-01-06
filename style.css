@@ -12,6 +12,7 @@ body {
 .topH1 {
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 5%;
 }
 
 .crypting {
@@ -32,47 +33,66 @@ textarea {
 }
 
 .textToCrypt {
-  margin-right: 60px;
+  width: 100%;
+  position: relative;
 }
 
 .textToUncrypt {
-  margin-left: 60px;
+  width: 100%;
 }
 
-.buttons {
-  padding-top: 100px;
+.uncryptSection {
+  margin-top: 0%;
+  width: 20%;
+}
 
-  margin-top: 1%;
-  margin-bottom: 8%;
+.cryptSection {
+  margin-top: 0%;
+  width: 20%;
 }
 
 button {
-  font-size: 18px;
+  font-size: 20px;
   background-color: black;
   border-style: solid;
-  border-color: green;
+  border-color: rgb(10, 97, 10);
   border-width: 3px;
-  color: green;
+  color: rgb(10, 97, 10);
   padding: 10px;
   border-radius: 30%;
 }
 
+.buttons {
+  display: grid;
+  height: 20%;
+  margin: auto 3%;
+}
+
 .cryptButton {
-  position: absolute;
-  margin-top: 100px;
-  margin-left: 0.5%;
-  margin-bottom: 30px;
+  margin-bottom: 10%;
+}
+
+.uncryptButton {
+  margin-top: 10%;
+}
+
+.btnHovered {
+  border-color: lime;
+  color: lime;
+}
+
+.btnClicked {
+  color: white;
+  border-color: white;
 }
 
 .cryptTitles {
-  margin-top: 80px;
-  margin-bottom: 40px;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
-.cryptTitle {
-  margin-right: 30%;
+h2 {
+  display: inline;
+  margin: 0 11%;
 }
 
 .settings {
